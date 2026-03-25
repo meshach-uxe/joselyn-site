@@ -1,0 +1,53 @@
+.section {
+  background-color: var(--color-contrast);
+  color: var(--color-base);
+  padding-block: var(--sp-5);
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-4);
+}
+
+@media (min-width: 600px) {
+  .inner {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.heading {
+  font-size: var(--fs-2xl);
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--color-base);
+}
+
+.form {
+  display: flex;
+  gap: 0;
+  max-width: 500px;
+  width: 100%;
+}
+
+.input {
+  flex: 1;
+  padding: 0.85rem 1.5rem;
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 3rem 0 0 3rem;
+  font-size: var(--fs-sm);
+  font-family: var(--font-body);
+  background: var(--color-base);
+  color: var(--color-contrast);
+  outline: none;
+}
+.input:focus { border-color: var(--color-primary); }
+
+.submitBtn {
+  border-radius: 0 3rem 3rem 0;
+  padding: 0.85rem 1.5rem;
+  white-space: nowrap;
+}

@@ -1,0 +1,69 @@
+.section {
+  background-color: var(--color-base);
+}
+
+.intro {
+  padding-block: var(--sp-8);
+  text-align: center;
+}
+
+.eyebrow {
+  font-size: var(--fs-xs);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-contrast);
+  margin-bottom: var(--sp-5);
+  text-decoration: underline;
+  text-decoration-color: var(--color-secondary);
+  text-decoration-thickness: 4px;
+  text-underline-offset: 0.2em;
+}
+
+.subtitle {
+  font-size: var(--fs-xl);
+  font-weight: 400;
+  max-width: 900px;
+  margin-inline: auto;
+  text-align: center;
+  line-height: 1.3;
+}
+
+/* Counter bar */
+.counterBar {
+  background-color: var(--color-contrast);
+  color: var(--color-base);
+  padding-block: var(--sp-5);
+}
+
+.counterInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-4);
+  flex-wrap: wrap;
+}
+
+.counterLabel {
+  font-size: var(--fs-2xl);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.counter {
+  font-family: var(--font-heading);
+  font-size: clamp(3rem, 8vw, 5rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: var(--color-base);
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  .counterInner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .counter { text-align: center; }
+}
