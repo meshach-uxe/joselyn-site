@@ -23,7 +23,7 @@ export default function PodcastSection() {
         <div className={styles.right}>
           <div className={styles.imgWrap}>
             <img
-              src="https://picsum.photos/seed/freetown-reality/1200/1000"
+              src="/images/Freetown.jpg"
               alt="The Freetown Reality"
               className={styles.img}
             />
