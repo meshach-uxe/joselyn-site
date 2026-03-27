@@ -45,7 +45,7 @@
   left: 0;
   right: 0;
   height: 6px;
-  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+  background: var(--color-secondary);
   z-index: 0;
 }
 
@@ -69,7 +69,7 @@
   font-weight: 900;
   font-family: var(--font-heading);
   margin-bottom: 1.5rem;
-  color: var(--color-primary);
+  color: var(--color-secondary);
   z-index: 1;
   line-height: 1;
   letter-spacing: -0.04em;
@@ -86,14 +86,14 @@
 }
 
 .sponsorBtn {
-  border: 1.5px solid var(--color-primary) !important;
-  color: var(--color-primary) !important;
+  border: 1.5px solid var(--color-secondary) !important;
+  color: var(--color-secondary) !important;
   transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   background: transparent !important;
 }
 
 .sponsorBtn:hover {
-  background: var(--color-primary) !important;
+  background: var(--color-secondary) !important;
   color: #fff !important;
   transform: translateY(-2px);
 }
