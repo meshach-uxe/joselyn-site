@@ -32,7 +32,7 @@ export default function PartnershipsSection() {
                 <p>
                   100% of your donation goes directly to our programs in Freetown. We provide monthly impact reports, so you can see the literacy scores, health metrics, and success stories your generosity makes possible.
                 </p>
-                <a href="/impact/" className="btn btn-dark">View Impact Reports &rarr;</a>
+                <a href="#" className="btn btn-dark">View Impact Reports &rarr;</a>
               </div>
             </div>
           </div>

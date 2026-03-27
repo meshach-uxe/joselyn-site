@@ -17,7 +17,7 @@ export default function KQSection() {
             can help our science, and how it can help you.
           </p>
           <div className={styles.cta}>
-            <a href="/kq/" className="btn btn-dark">Learn More &rarr;</a>
+            <a href="#" className="btn btn-dark">Learn More &rarr;</a>
           </div>
           <div className={styles.mosaic}>
             <img

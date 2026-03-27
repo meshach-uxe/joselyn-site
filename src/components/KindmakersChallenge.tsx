@@ -23,7 +23,7 @@ export default function KindmakersChallenge() {
               <h3 className={styles.tierTitle}>{t.title}</h3>
               <p className={styles.tierPrice}>{t.price}</p>
               <p className={styles.tierDesc}>{t.desc}</p>
-              <a href="/donate/" className="btn btn-outline" style={{ textAlign: 'center' }}>Sponsor a Child &rarr;</a>
+              <a href="#" className="btn btn-outline" style={{ textAlign: 'center' }}>Sponsor a Child &rarr;</a>
             </div>
           ))}
         </div>

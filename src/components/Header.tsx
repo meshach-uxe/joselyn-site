@@ -31,18 +31,11 @@ export default function Header() {
 
   return (
     <header className={styles.headerWrapper}>
-      {/* Announcement bar */}
-      <div className={styles.announcementBar}>
-        <div className={styles.announcementInner}>
-          <p>Become a Kindmaker today. <a href="/donate" className={styles.announcementLink}>START NOW &rarr;</a></p>
-        </div>
-      </div>
-
       {/* Main header */}
       <div className={styles.mainHeader}>
         <div className={styles.headerInner}>
           {/* Logo */}
-          <Link href="/" className={styles.logo} aria-label="Kindness home">
+          <Link href="#" className={styles.logo} aria-label="Kindness home">
             <KindnessLogo />
           </Link>
 
@@ -81,10 +74,10 @@ export default function Header() {
             <button className={styles.iconBtn} aria-label="Search">
               <SearchIcon />
             </button>
-            <a href="/my-account/" className={styles.iconBtn} aria-label="Login">
+            <a href="#" className={styles.iconBtn} aria-label="Login">
               <UserIcon />
             </a>
-            <a href="/donate/" className="btn btn-sm">Donate</a>
+            <a href="#" className="btn btn-sm">Donate</a>
 
             {/* Hamburger */}
             <button
@@ -104,7 +97,7 @@ export default function Header() {
       {mobileMenuOpen && (
         <div className={styles.mobileOverlay}>
           <div className={styles.mobileHeader}>
-            <Link href="/" className={styles.logo} onClick={() => setMobileMenuOpen(false)}>
+            <Link href="#" className={styles.logo} onClick={() => setMobileMenuOpen(false)}>
               <KindnessLogo />
             </Link>
             <button
@@ -137,7 +130,7 @@ export default function Header() {
               </div>
             ))}
             <div className={styles.mobileCtas}>
-              <a href="/donate/" className="btn" onClick={() => setMobileMenuOpen(false)}>Donate</a>
+              <a href="#" className="btn" onClick={() => setMobileMenuOpen(false)}>Donate</a>
             </div>
           </nav>
         </div>

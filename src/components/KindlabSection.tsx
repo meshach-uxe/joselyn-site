@@ -19,7 +19,7 @@ export default function KindlabSection() {
               <p>
                 <strong>Aminata isn&apos;t just a student anymore; she is the president of her school&apos;s Climate Club. She isn&apos;t waiting for the future; she is building it.</strong>
               </p>
-              <a href="/stories/" className="btn btn-dark">Read More Stories &rarr;</a>
+              <a href="#" className="btn btn-dark">Read More Stories &rarr;</a>
             </div>
           </div>
 

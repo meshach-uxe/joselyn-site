@@ -20,74 +20,56 @@ const socialLinks = [
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-      <div className={styles.footerInner}>
-        <div className="container">
-          <div className={styles.grid}>
-            {/* Brand + social */}
+      <div className="container">
+        <div className={styles.footerInner}>
+          <div className={styles.topRow}>
+            {/* Brand / Left */}
             <div className={styles.brand}>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/Logo/Full%20Logo/White.png"
                 alt="Joselyn Logo"
-                style={{ height: '38px', width: 'auto' }}
                 className={styles.logo}
               />
+              <p className={styles.tagline}>
+                Empowering the future of Sierra Leone through dignity, education, and holistic care.
+              </p>
+            </div>
+
+            {/* Links / Center */}
+            <div className={styles.links}>
+              <a href="#" className={styles.navLink}>Impact</a>
+              <a href="#" className={styles.navLink}>Stories</a>
+              <a href="#" className={styles.navLink}>About Us</a>
+              <a href="#" className={styles.navLink}>Donate</a>
+            </div>
+
+            {/* Right / Social */}
+            <div className={styles.socialCol}>
               <ul className={styles.social}>
                 {socialLinks.map((s) => (
                   <li key={s.label}>
-                    <a href={s.href} className={styles.socialLink} aria-label={s.label} target="_blank" rel="noreferrer noopener">
+                    <a href="#" className={styles.socialLink} aria-label={s.label}>
                       {s.icon}
                     </a>
                   </li>
                 ))}
               </ul>
-            </div>
-
-            {/* Nav */}
-            <nav className={styles.footerNav} aria-label="Footer navigation">
-              <a href="/our-work/#contact-section" className={styles.navLink}>Contact Us</a>
-              <a href="/privacy-policy/" className={styles.navLink}>Privacy Policy</a>
-              <a href="/terms-conditions/" className={styles.navLink}>Terms and Conditions</a>
-            </nav>
-
-            {/* Book promo */}
-            <div className={styles.bookPromo}>
-              <p className={styles.bookLabel}>Discover Our CEO Jaclyn Lindsey&apos;s Latest Book!</p>
-              <img
-                src="https://picsum.photos/seed/book/200/300"
-                alt="Be Kind book by Jaclyn Lindsey"
-                className={styles.book}
-              />
-            </div>
-
-            {/* Newsletter */}
-            <div className={styles.newsletter}>
-              <h3 className={styles.newsletterTitle}>Stay Informed</h3>
-              <form className={styles.form} onSubmit={(e) => e.preventDefault()}>
-                <input
-                  type="email"
-                  placeholder="Email"
-                  aria-label="Email address"
-                  required
-                  className={styles.input}
-                />
-                <button type="submit" className={`btn btn-sm ${styles.submitBtn}`}>Submit</button>
-              </form>
+              <div className={styles.contact}>
+                <a href="#" className={styles.contactLink}>hello@joselyndivine.org</a>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
 
-      <div className={styles.colophon}>
-        <div className="container">
-          <p>
-            <a href="https://wordpress.com/" className={styles.colophonLink} target="_blank" rel="nofollow noopener noreferrer">
-              Proudly powered by WordPress.
-            </a>{' '}
-            <a href="https://pressable.com/" className={styles.colophonLink} target="_blank" rel="nofollow noopener noreferrer">
-              Hosted by Pressable.
-            </a>
-          </p>
+          <div className={styles.colophon}>
+            <div className={styles.colophonInner}>
+              <p>&copy; {new Date().getFullYear()} Joselyn Divine Foundation. All rights reserved.</p>
+              <div className={styles.legalLinks}>
+                <a href="#" className={styles.legalLink}>Privacy Policy</a>
+                <span className={styles.sep}>|</span>
+                <a href="#" className={styles.legalLink}>Terms and Conditions</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

@@ -44,8 +44,8 @@ const slides = [
     ),
     sub: 'Join our commitment to their future today.',
     ctas: [
-      { label: 'Invest in a Leader \u2192', href: '/donate/', outline: false },
-      { label: 'Explore Our Model \u2192', href: '#what-we-do', outline: true }
+      { label: 'Invest in a Leader \u2192', href: '#', outline: false },
+      { label: 'Explore Our Model \u2192', href: '#', outline: true }
     ],
   }
 ];
