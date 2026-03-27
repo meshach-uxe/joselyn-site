@@ -1,13 +1,12 @@
 .section {
-  padding-block: var(--sp-9);
   background-color: var(--color-base-2);
+  overflow: hidden;
 }
 
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: stretch;
-  min-height: 650px;
 }
 
 .left {
@@ -20,7 +19,7 @@
 .leftContent {
   max-width: calc(var(--max-wide) / 2);
   margin-left: auto;
-  padding-inline: var(--sp-4);
+  padding-inline: var(--sp-6);
   display: flex;
   flex-direction: column;
   gap: var(--sp-4);
