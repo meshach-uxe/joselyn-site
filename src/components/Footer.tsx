@@ -25,11 +25,11 @@ export default function Footer() {
           <div className={styles.grid}>
             {/* Brand + social */}
             <div className={styles.brand}>
-              <Image
-                src="/kindness.org-Logo-Horizontal-White.png"
-                alt="Kindness.org logo"
-                width={200}
-                height={38}
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/Logo/Full%20Logo/White.png"
+                alt="Joselyn Logo"
+                style={{ height: '38px', width: 'auto' }}
                 className={styles.logo}
               />
               <ul className={styles.social}>

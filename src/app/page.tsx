@@ -14,19 +14,19 @@ export default function HomePage() {
       <main>
         {/* Section 1: Hero Section */}
         <HeroSection />
-        
+
         {/* Section 1b: The Freetown Reality (The Need) */}
         <PodcastSection />
-        
+
         {/* Section 2: Our Pillars of Power (The Solution) */}
         <ProgramsGrid />
-        
+
         {/* Section 3: Narrative of Resilience (Impact Story) */}
         <KindlabSection />
-        
+
         {/* Section 4: Be the Architect of a Future (Get Involved) */}
         <KindmakersChallenge />
-        
+
         {/* Section 5: Radical Transparency (Trust Signals) */}
         <PartnershipsSection />
       </main>
