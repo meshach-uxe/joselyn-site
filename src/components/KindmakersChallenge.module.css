@@ -55,31 +55,47 @@
 }
 
 .tierTitle {
-  font-size: 1.25rem;
-  margin-bottom: 0.5rem;
-  color: var(--color-primary);
+  font-size: 1.15rem;
+  margin-bottom: 0.25rem;
+  color: var(--color-contrast);
+  opacity: 0.9;
   font-weight: 700;
   z-index: 1;
+  letter-spacing: -0.01em;
 }
 
 .tierPrice {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 900;
   font-family: var(--font-heading);
-  margin-bottom: 1.25rem;
-  color: var(--color-contrast);
+  margin-bottom: 1.5rem;
+  color: var(--color-primary);
   z-index: 1;
   line-height: 1;
+  letter-spacing: -0.04em;
 }
 
 .tierDesc {
   flex: 1;
   margin-bottom: 2.5rem;
   color: var(--color-contrast);
-  opacity: 0.85;
+  opacity: 0.75;
   font-size: var(--fs-sm);
   line-height: 1.6;
   z-index: 1;
+}
+
+.sponsorBtn {
+  border: 1.5px solid var(--color-primary) !important;
+  color: var(--color-primary) !important;
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  background: transparent !important;
+}
+
+.sponsorBtn:hover {
+  background: var(--color-primary) !important;
+  color: #fff !important;
+  transform: translateY(-2px);
 }
 
 @media (min-width: 900px) {
