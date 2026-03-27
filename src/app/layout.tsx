@@ -2,13 +2,16 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Kindness',
+  title: 'Joselyn Divine Foundation',
   description:
-    'The World Needs More Kindmakers. Every day, the world reminds us how much kindness matters. ' +
-    'It\'s time to turn empathy into action and hope into change.',
+    'Empowering the future of Sierra Leone through dignity, education, and holistic care.',
+  icons: {
+    icon: '/Logo/Logo Mark/Orange.png',
+    apple: '/Logo/Logo Mark/Orange.png',
+  },
   openGraph: {
-    title: 'Kindness',
-    description: 'The World Needs More Kindmakers.',
+    title: 'Joselyn Divine Foundation',
+    description: 'Empowering the future of Sierra Leone through dignity, education, and holistic care.',
     type: 'website',
   },
 };
