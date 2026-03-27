@@ -102,21 +102,11 @@ export default function HeroSection() {
     };
   }, []);
 
-  // Derived styles for the sticky video mask
-  const scale = 1 - (progress * 0.05);
-  const radius = progress * 24;
-
   return (
     <section className={styles.heroSection} ref={containerRef} aria-label="Hero scrollytelling">
       {/* Sticky Background Layer */}
       <div className={styles.stickyBackground}>
-        <div 
-          className={styles.videoMask}
-          style={{
-            transform: `scale(${scale})`,
-            borderRadius: `${radius}px`
-          }}
-        >
+        <div className={styles.videoMask}>
           {slides.map((slide, i) => (
             <div 
               key={i} 

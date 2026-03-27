@@ -23,10 +23,6 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
-  will-change: transform, border-radius;
-  transform-origin: center center;
-  /* Smooth transition for any fast scroll jumps, mostly driven by inline style */
-  transition: transform 0.1s ease-out, border-radius 0.1s ease-out;
 }
 
 .videoLayer {
