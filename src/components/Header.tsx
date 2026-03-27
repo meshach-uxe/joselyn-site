@@ -13,8 +13,6 @@ const KindnessLogo = () => (
   />
 );
 
-
-
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
