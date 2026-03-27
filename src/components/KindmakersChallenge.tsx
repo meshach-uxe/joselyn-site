@@ -10,19 +10,19 @@ export default function KindmakersChallenge() {
   return (
     <section className={styles.section} id="get-involved">
       <div className="container" style={{ textAlign: 'center' }}>
-        <h2 className={styles.heading} style={{ marginBottom: '1rem' }}>
+        <h2 className={styles.heading}>
           Your Role in the Story
         </h2>
-        <p style={{ maxWidth: 700, margin: '0 auto 3rem' }}>
+        <p className={styles.introDesc}>
           Your support is the fuel for our mission. Whether you give once or join our circle of recurring sponsors, you are making a measurable difference in the life of a child in Freetown.
         </p>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', textAlign: 'left' }}>
+        <div className={styles.grid}>
           {tiers.map((t, i) => (
-            <div key={i} style={{ border: '1px solid var(--color-light-gray)', borderRadius: 12, padding: '2.5rem', display: 'flex', flexDirection: 'column' }}>
-              <h3 style={{ fontSize: '1.2rem', marginBottom: '0.5rem', color: 'var(--color-primary)' }}>{t.title}</h3>
-              <p style={{ fontSize: '2.5rem', fontWeight: 900, fontFamily: 'var(--font-heading)', marginBottom: '1rem', color: 'var(--color-contrast)' }}>{t.price}</p>
-              <p style={{ flex: 1, marginBottom: '2rem', color: 'var(--color-gray)' }}>{t.desc}</p>
+            <div key={i} className={styles.tierCard}>
+              <h3 className={styles.tierTitle}>{t.title}</h3>
+              <p className={styles.tierPrice}>{t.price}</p>
+              <p className={styles.tierDesc}>{t.desc}</p>
               <a href="/donate/" className="btn btn-outline" style={{ textAlign: 'center' }}>Sponsor a Child &rarr;</a>
             </div>
           ))}

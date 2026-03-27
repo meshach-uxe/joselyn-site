@@ -4,7 +4,7 @@ import styles from './HeroSection.module.css';
 
 const slides = [
   {
-    poster: 'https://kindness.org/wp-content/uploads/2025/11/storytelling-1-poster.webp',
+    poster: 'https://picsum.photos/seed/hero-1/1920/1080',
     videoMobileAv1: 'https://videos.files.wordpress.com/uBKGxmO8/scrollytelling-1-mobile-av1.mp4',
     videoMobileH264: 'https://videos.files.wordpress.com/CiOYqH2X/scrollytelling-1-mobile-h264.mp4',
     videoAv1: 'https://videos.files.wordpress.com/rs1DzHrC/scrollytelling-1-full-av1.mp4',
@@ -18,7 +18,7 @@ const slides = [
     ctas: null,
   },
   {
-    poster: 'https://kindness.org/wp-content/uploads/2025/11/scrollytelling-2-full-av1_mp4_std.original.jpg',
+    poster: 'https://picsum.photos/seed/hero-2/1920/1080',
     videoMobileAv1: 'https://videos.files.wordpress.com/Q5M3Wezs/scrollytelling-2-mobile-av1.mp4',
     videoMobileH264: 'https://videos.files.wordpress.com/3bRSAYuy/scrollytelling-2-mobile-h264.mp4',
     videoAv1: 'https://videos.files.wordpress.com/AtWbdizi/scrollytelling-2-full-av1.mp4',
@@ -32,7 +32,7 @@ const slides = [
     ctas: null,
   },
   {
-    poster: 'https://kindness.org/wp-content/uploads/2025/11/scrollytelling-3-full-av1_mp4_dvd.original.jpg',
+    poster: 'https://picsum.photos/seed/hero-3/1920/1080',
     videoMobileAv1: 'https://videos.files.wordpress.com/TxtNTd1l/scrollytelling-3-mobile-av1.mp4',
     videoMobileH264: 'https://videos.files.wordpress.com/4qaSIqsO/scrollytelling-3-mobile-h264.mp4',
     videoAv1: 'https://videos.files.wordpress.com/IwzOJ0Nx/scrollytelling-3-full-av1.mp4',

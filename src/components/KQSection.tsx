@@ -20,11 +20,9 @@ export default function KQSection() {
             <a href="/kq/" className="btn btn-dark">Learn More &rarr;</a>
           </div>
           <div className={styles.mosaic}>
-            <Image
-              src="/slice-mosaic@1.5x.webp"
+            <img
+              src="https://picsum.photos/seed/science/1800/400"
               alt="What's your KQ image mosaic"
-              width={1811}
-              height={246}
               className={styles.mosaicImg}
             />
           </div>

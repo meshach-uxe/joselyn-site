@@ -27,11 +27,9 @@ export default function NasdaqSection() {
               Because when kindness is valued publicly, it becomes expected everywhere.
             </p>
             <div className={styles.bannerWrap}>
-              <Image
-                src="/Nasdaq-Banner.png"
+              <img
+                src="https://picsum.photos/seed/nasdaq/1024/200"
                 alt="NASDAQ Banner"
-                width={1024}
-                height={137}
                 className={styles.banner}
               />
             </div>

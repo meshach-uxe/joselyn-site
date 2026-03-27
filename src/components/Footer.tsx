@@ -53,11 +53,9 @@ export default function Footer() {
             {/* Book promo */}
             <div className={styles.bookPromo}>
               <p className={styles.bookLabel}>Discover Our CEO Jaclyn Lindsey&apos;s Latest Book!</p>
-              <Image
-                src="/be-kind-book.webp"
+              <img
+                src="https://picsum.photos/seed/book/200/300"
                 alt="Be Kind book by Jaclyn Lindsey"
-                width={180}
-                height={200}
                 className={styles.book}
               />
             </div>

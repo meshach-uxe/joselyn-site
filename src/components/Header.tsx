@@ -3,44 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import styles from './Header.module.css';
 
-const navItems = [
-  {
-    label: 'Get Involved',
-    href: '#',
-    children: [
-      { label: 'Take the KQ', href: '/kq/' },
-      { label: 'Become a Kindmaker', href: '/donate/' },
-      { label: 'Build Kinder Classrooms', href: '/learnkind/' },
-      { label: 'Become a Corporate Partner', href: '/work-kind/' },
-    ],
-  },
-  {
-    label: 'Our Research',
-    href: '/our-work/',
-    children: [
-      { label: 'Kindlab', href: '/kindlab/' },
-      { label: 'Published Papers', href: '/kindlab/#papers' },
-    ],
-  },
-  {
-    label: 'Resources',
-    href: '#',
-    children: [
-      { label: 'Why Kindness? Podcast', href: '/why-kindness/' },
-      { label: 'Kindness Tools', href: '/get-started/#tools-for-action' },
-      { label: 'The Choose Kindness Project', href: 'https://thechoosekindnessproject.org/' },
-    ],
-  },
-  {
-    label: 'About Us',
-    href: '#',
-    children: [
-      { label: 'Our Mission', href: '/about-us/' },
-      { label: 'Our Impact', href: '/about-us/#impact' },
-      { label: 'Our Partners', href: '/about-us/#contact-section' },
-    ],
-  },
-];
+const navItems: Array<{ label: string; href: string; children?: Array<{ label: string; href: string }> }> = [];
 
 const KindnessLogo = () => (
   <img 

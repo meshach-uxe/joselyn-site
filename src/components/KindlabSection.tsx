@@ -26,13 +26,11 @@ export default function KindlabSection() {
           {/* Right: image */}
           <div className={styles.right}>
             <div className={styles.imgBlock}>
-              <Image
-                src="/Dr.-Curry@1.5x.webp" /* Placeholder for Aminata's portrait */
+              <img
+                src="https://picsum.photos/seed/smilinggirl/600/800"
                 alt="Portrait of Aminata"
-                width={500}
-                height={600}
                 className={styles.portrait}
-                style={{ objectFit: 'cover', width: '100%', height: 'auto', borderRadius: '8px' }}
+                style={{ objectFit: 'cover' }}
               />
             </div>
           </div>
