@@ -31,8 +31,8 @@
   line-height: 1.05;
 }
 .highlight { 
-  color: var(--color-primary); 
-  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+  color: var(--color-contrast); 
+  background: linear-gradient(90deg, var(--color-contrast) 20%, var(--color-secondary));
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
