@@ -1,8 +1,8 @@
-# Project Joselyn: Design Brief & Brand Guidelines
+# Project Joslyn: Design Brief & Brand Guidelines
 **Status:** Version 1.0 (Initial Landing Page Launch)
 
 ## 1. Brand Mission
-The **Joselyn Divine Foundation** is an impact-forward NGO dedicated to breaking the cycle of poverty in Freetown, Sierra Leone. The brand identity is built on **Radical Transparency**, **Dignity-First Storytelling**, and **Visionary Leadership**.
+The **Joslyn Divine Foundation** is an impact-forward NGO dedicated to breaking the cycle of poverty in Freetown, Sierra Leone. The brand identity is built on **Radical Transparency**, **Dignity-First Storytelling**, and **Visionary Leadership**.
 
 ## 2. Visual Identity & Aesthetics
 The website follows a **"Bento 2.0"** and **"Premium Frontend"** philosophy:

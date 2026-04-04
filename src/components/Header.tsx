@@ -7,8 +7,8 @@ const navItems: Array<{ label: string; href: string; children?: Array<{ label: s
 
 const KindnessLogo = () => (
   <img 
-    src="/Logo/Full%20Logo/Orange.png" 
-    alt="Joselyn Logo" 
+    src="/Logo/Full%20Logo/Logo%20-%20Orange.png" 
+    alt="Joslyn Logo" 
     style={{ height: '40px', width: 'auto' }} 
   />
 );

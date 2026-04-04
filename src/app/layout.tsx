@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Joselyn Divine Foundation',
+  title: 'Joslyn Divine Foundation',
   description:
     'Empowering the future of Sierra Leone through dignity, education, and holistic care.',
   icons: {
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     apple: '/Logo/Logo Mark/Orange.png',
   },
   openGraph: {
-    title: 'Joselyn Divine Foundation',
+    title: 'Joslyn Divine Foundation',
     description: 'Empowering the future of Sierra Leone through dignity, education, and holistic care.',
     type: 'website',
   },

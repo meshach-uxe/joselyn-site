@@ -26,8 +26,8 @@ export default function Footer() {
             {/* Brand / Left */}
             <div className={styles.brand}>
               <img
-                src="/Logo/Full%20Logo/White.png"
-                alt="Joselyn Logo"
+                src="/Logo/Full%20Logo/Logo%20-%20White.png"
+                alt="Joslyn Logo"
                 className={styles.logo}
               />
               <p className={styles.tagline}>
@@ -62,7 +62,7 @@ export default function Footer() {
 
           <div className={styles.colophon}>
             <div className={styles.colophonInner}>
-              <p>&copy; {new Date().getFullYear()} Joselyn Divine Foundation. All rights reserved.</p>
+              <p>&copy; {new Date().getFullYear()} Joslyn Divine Foundation. All rights reserved.</p>
               <div className={styles.legalLinks}>
                 <a href="#" className={styles.legalLink}>Privacy Policy</a>
                 <span className={styles.sep}>|</span>
