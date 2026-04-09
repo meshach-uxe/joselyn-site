@@ -5,38 +5,38 @@ import styles from './HeroSection.module.css';
 const slides = [
   {
     poster: 'https://picsum.photos/seed/hero-1/1920/1080',
-    videoMobileAv1: 'https://videos.files.wordpress.com/uBKGxmO8/scrollytelling-1-mobile-av1.mp4',
-    videoMobileH264: 'https://videos.files.wordpress.com/CiOYqH2X/scrollytelling-1-mobile-h264.mp4',
-    videoAv1: 'https://videos.files.wordpress.com/rs1DzHrC/scrollytelling-1-full-av1.mp4',
-    videoH264: 'https://videos.files.wordpress.com/TNHHvuya/scrollytelling-1-full-h264.mp4',
+    videoMobileAv1: '/videos/scrollytelling-1-mobile-av1.mp4',
+    videoMobileH264: '/videos/scrollytelling-1-mobile-h264.mp4',
+    videoAv1: '/videos/scrollytelling-1-full-av1.mp4',
+    videoH264: '/videos/scrollytelling-1-full-h264.mp4',
     heading: (
       <>
         Beyond Survival<span className={styles.dot}>.</span>
       </>
     ),
-    sub: 'The Joslyn Divine Foundation is breaking the cycle of poverty for Freetown’s most vulnerable children.',
+    sub: 'The Joslyn Divine Foundation is breaking the cycle of poverty for Freetown\u2019s most vulnerable children.',
     ctas: null,
   },
   {
     poster: 'https://picsum.photos/seed/hero-2/1920/1080',
-    videoMobileAv1: 'https://videos.files.wordpress.com/Q5M3Wezs/scrollytelling-2-mobile-av1.mp4',
-    videoMobileH264: 'https://videos.files.wordpress.com/3bRSAYuy/scrollytelling-2-mobile-h264.mp4',
-    videoAv1: 'https://videos.files.wordpress.com/AtWbdizi/scrollytelling-2-full-av1.mp4',
-    videoH264: 'https://videos.files.wordpress.com/xuqhfbhx/scrollytelling-2-full-h264.mp4',
+    videoMobileAv1: '/videos/scrollytelling-2-mobile-av1.mp4',
+    videoMobileH264: '/videos/scrollytelling-2-mobile-h264.mp4',
+    videoAv1: '/videos/scrollytelling-2-full-av1.mp4',
+    videoH264: '/videos/scrollytelling-2-full-h264.mp4',
     heading: (
       <>
         Radical Commitment<span className={styles.dot}>.</span>
       </>
     ),
-    sub: 'Through holistic care and consistent mentorship, we are redefining what’s possible.',
+    sub: 'Through holistic care and consistent mentorship, we are redefining what\u2019s possible.',
     ctas: null,
   },
   {
     poster: 'https://picsum.photos/seed/hero-3/1920/1080',
-    videoMobileAv1: 'https://videos.files.wordpress.com/TxtNTd1l/scrollytelling-3-mobile-av1.mp4',
-    videoMobileH264: 'https://videos.files.wordpress.com/4qaSIqsO/scrollytelling-3-mobile-h264.mp4',
-    videoAv1: 'https://videos.files.wordpress.com/IwzOJ0Nx/scrollytelling-3-full-av1.mp4',
-    videoH264: 'https://videos.files.wordpress.com/LQOERNBv/scrollytelling-3-full-h264.mp4',
+    videoMobileAv1: '/videos/scrollytelling-3-mobile-av1.mp4',
+    videoMobileH264: '/videos/scrollytelling-3-mobile-h264.mp4',
+    videoAv1: '/videos/scrollytelling-3-full-av1.mp4',
+    videoH264: '/videos/scrollytelling-3-full-h264.mp4',
     heading: (
       <>
         Built for Leadership<span className={styles.dot}>.</span>
